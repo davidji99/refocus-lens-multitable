@@ -27,6 +27,7 @@
         "messageCode": "Message Code",
         "sampleRelatedLinks": "Sample Related Links",
         "aspectRelatedLinks": "Aspect Related Links",
+        "subjectRelatedLinks": "Subject Related Links",
         "status": "Status",
         "tags": "Aspect Tags",
         "value": "Value"

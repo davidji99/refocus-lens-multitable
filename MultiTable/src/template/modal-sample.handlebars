@@ -86,6 +86,15 @@
                                 {{/each}}
                             {{/if}}
                         </div>
+
+                        <h5>{{heading.subjectRelatedLinks}}</h5>
+                        <div class="list-group">
+                            {{#if data.subject.relatedLinks}}
+                                {{#each data.subject.relatedLinks}}
+                                    <a class="list-group-item" target="_blank" rel="noopener noreferrer" style="padding: .25rem 0.75rem" href="{{url}}">{{name}}</a>
+                                {{/each}}
+                            {{/if}}
+                        </div>
                     </div><!-- col-xs-4 -->
                 </div><!-- row -->
             </div><!-- container -->
